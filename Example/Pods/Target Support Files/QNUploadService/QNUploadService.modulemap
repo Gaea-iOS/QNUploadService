@@ -1,0 +1,6 @@
+framework module QNUploadService {
+  umbrella header "QNUploadService-umbrella.h"
+
+  export *
+  module * { export * }
+}
