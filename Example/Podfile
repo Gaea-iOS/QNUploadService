@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QNUploadService_Example' do
+  pod 'QNUploadService', :path => '../'
+
+  target 'QNUploadService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
